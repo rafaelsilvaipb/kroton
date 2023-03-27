@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: kroton-deployment
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
       app: kroton
@@ -19,3 +19,4 @@ spec:
             - containerPort: 8080
       imagePullSecrets:
         - name: regcred
+
