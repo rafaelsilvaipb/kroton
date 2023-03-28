@@ -45,7 +45,7 @@ http://localhost:8080/swagger-ui.html
 
 # Como usar
 
-Acessando o Swagger verá que temos um CRUD completo, 
+Acessando o Swagger verá que temos um CRUD completo.
 <img width="938" alt="image" src="https://user-images.githubusercontent.com/39627828/228377867-10542cf0-5ce2-49ce-a8cc-3402d2ff73ca.png">
 
 Basta usar o botao "Try it out" para ver o body e fazer as requisiçoes.
@@ -72,4 +72,6 @@ Acessando no navegador ficaria assim.
 A criação do cluster no EKS ficou da seguinte forma. <br/>
 <img width="536" alt="image" src="https://user-images.githubusercontent.com/39627828/228381138-e6e3b7b6-2643-42b1-8c6a-59bd16246384.png">
 
+Após funcionar tudo e eu tirar os prints para essa documentação, apaguei o cluster, pois é cobrado por hora pela AWS. <br/>
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/39627828/228384803-95a33cfd-665e-443a-8270-0c7f9ab4276b.png">
 
