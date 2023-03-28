@@ -57,9 +57,10 @@ Criei uma pipeline local no Jenkins, o arquivo está na raiz do projeto, o Jenki
 <img width="676" alt="image" src="https://user-images.githubusercontent.com/39627828/228378690-349ae10c-65d8-4ab7-b86d-2e9722329674.png">
 
 Primeiro baixamos o projeto do GitHub, depois compilamos e gerando um jar. Geramos uma imagem docker e mandamos para o AWS ECR. Por fim fazemos deploy no EKS.
+<br />
 <img width="678" alt="image" src="https://user-images.githubusercontent.com/39627828/228379292-4c693918-56aa-4ff2-b607-7cca7ae121c3.png">
 
-Log final da pipeline </br>
+Log final da pipeline <br />
 <img width="621" alt="image" src="https://user-images.githubusercontent.com/39627828/228379427-ef647255-ea82-40cd-8c51-127fa51c351c.png">
 
 Temos no final um service que nos provê uma url para acessar o serviço. <br/>
