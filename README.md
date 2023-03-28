@@ -59,10 +59,10 @@ Criei uma pipeline local no Jenkins, o arquivo está na raiz do projeto, o Jenki
 Primeiro baixamos o projeto do GitHub, depois compilamos e gerando um jar. Geramos uma imagem docker e mandamos para o AWS ECR. Por fim fazemos deploy no EKS.
 <img width="678" alt="image" src="https://user-images.githubusercontent.com/39627828/228379292-4c693918-56aa-4ff2-b607-7cca7ae121c3.png">
 
-Log final da pipeline
+Log final da pipeline </br>
 <img width="621" alt="image" src="https://user-images.githubusercontent.com/39627828/228379427-ef647255-ea82-40cd-8c51-127fa51c351c.png">
 
-Temos no final um service que nos provê uma url para acessar o serviço.
+Temos no final um service que nos provê uma url para acessar o serviço. <br/>
 <img width="761" alt="image" src="https://user-images.githubusercontent.com/39627828/228379667-bcd0f3d6-dc11-47c5-b3a0-f582673a9dc7.png">
 
 Acessando no navegador ficaria assim.
