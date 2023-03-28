@@ -69,3 +69,7 @@ Temos no final um service que nos provê uma url para acessar o serviço. <br/>
 Acessando no navegador ficaria assim.
 <img width="832" alt="image" src="https://user-images.githubusercontent.com/39627828/228379916-5e4213ec-1828-4c23-9c62-65aa2a42b602.png">
 
+A criação do cluster no EKS ficou da seguinte forma. <br/>
+<img width="536" alt="image" src="https://user-images.githubusercontent.com/39627828/228381138-e6e3b7b6-2643-42b1-8c6a-59bd16246384.png">
+
+
