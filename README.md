@@ -16,13 +16,13 @@
 - Jenkins
 
 # Arquitetura
+<br />
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/39627828/228666585-6168dabe-e691-4b3b-a20e-3d01796c9e1e.png">
 
-Optei por fazer uma arquitetura mais simples, assim como faria no dia a dia se tivesse apenas uma api ou serviço. 
-Usei uma controller, service e repository. 
 
 # Banco de dados
 
-Por se tratar de uma api de teste, usei o H2 para os testes unitários e MySql para a aplicação.
+Foi usado o H2 para os testes unitários e o AWS RDS MySql para a aplicação.
 
 
 ## Executando a aplicação
