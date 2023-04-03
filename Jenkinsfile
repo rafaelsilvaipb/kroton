@@ -25,7 +25,7 @@ pipeline {
         }
         stage("Deploy EKS"){
             steps{
-               kubeconfig(credentialsId: 'AWS', serverUrl: '',caCertificate: '') {
+               kubeconfig(credentialsId: 'kroton', serverUrl: '',caCertificate: '') {
                     bat 'kubectl delete deployments kroton'
                     bat 'kubectl delete services kroton'
                     bat 'kubectl apply -f .\\EKS.yaml'
